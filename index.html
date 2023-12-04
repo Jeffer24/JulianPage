@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="shortcut icon" href="./img/DevIcon.svg" type="image/x-icon">
+        <link rel="stylesheet" href="./src/css/styles.css">
+        <title>Julián D. Pérez</title>
+    </head>
+    <body class="body1">
+        <div class="cursor"></div>
+
+        <div class="profile" data-aos="zoom-in-down">
+
+            <div class="titles">
+
+                <h1 class="title">I'm Julián D. Pérez</h1>
+                <h2 class="subtitle">Full Stack Developer</h2>
+                <p>Psst, hover over the titles.</p>
+                <div class="btns">
+
+                    <button class="theme" id="black">Black</button>
+                    <button class="theme" id="blue">Blue</button>
+
+                </div>
+
+            </div>
+
+            <img src="./img/DevIcon.svg" alt="dev" class="img">
+
+        </div>
+
+        <div class="container">
+
+            <div class="aboutMe" data-aos="fade-up">
+
+                <h2 class="tileAboutMe">About me</h2>
+                <p class="pAboutMe">Hi, nice to meet you, I'm Julián, I'm passionate about programming and I decided to do this portfolio as a project to practice my skills but also so that the day I have to present my portfolio I already have something available.</p>
+
+            </div>
+
+            <div class="technologies" data-aos="fade-up-right">
+
+                <h2 class="titleTechnologies">Technologies</h2>
+                <p class="pTechnologies">In the technologies it includes those that I have mastered and those that I have not mastered, since I am just beginning to know them.</p>
+
+            </div>
+            <div class="technologiesImages" data-aos="fade-up-left">
+
+                <img src="./img/html.png" alt="html" class="technologiesImg">
+                <img src="./img/css.png" alt="css" class="technologiesImg">
+                <img src="./img/javascript.png" alt="javascript" class="technologiesImg">
+                <img src="./img/python.png" alt="python" class="technologiesImg">
+                <img src="./img/node.png" alt="node" class="technologiesImg">
+                <img src="./img/typescript.png" alt="typescript" class="technologiesImg">
+
+            </div>
+
+
+        </div>
+
+        <div class="projects" data-aos="flip-up">
+
+            <h2 class="titlePtojects">Projects</h2>
+            <p class="pProjects">I have made a few projects with HTML CSS and JavaScript some of them are 'Color Identifier', 'Tip Calculator', 'Grade Average', 'To Do List' and 'Validate Password'.</p>
+
+        </div>
+
+        <div class="apps0" data-aos="flip-down">
+
+            <div class="app">
+
+                <h3>Color Identifier</h3>
+                <a href="./Container/Color Identifier/app.html" class="btn">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                    <span class="span4"></span>
+                    See Project
+                </a>
+
+            </div>
+            
+            <div class="app">
+
+                <h3>Tip Calculator</h3>
+                <a href="./Container/Tip Calculator/app.html" class="btn">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                    <span class="span4"></span>
+                    See Project
+                </a>
+
+            </div>
+
+            <div class="app">
+
+                <h3>To-Do List</h3>
+                <a href="./Container/To-Do List/app.html" class="btn">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                    <span class="span4"></span>
+                    See Project
+                </a>
+
+            </div>
+
+        </div>
+        
+        
+        <div class="apps1" data-aos="flip-up">
+
+            
+            <div class="app">
+
+                <h3>Even or Odd</h3>
+                <a href="./Container/Even or odd/app.html" class="btn">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                    <span class="span4"></span>
+                    See Project
+                </a>
+
+            </div>
+            
+            <div class="app">
+
+                <h3>Average Grades</h3>
+                <a href="./Container/Average Grades/app.html" class="btn">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                    <span class="span4"></span>
+                    See Project
+                </a>
+
+            </div>
+
+            <div class="app">
+
+                <h3>Validate Password</h3>
+                <a href="./Container/Validate Password/app.html" class="btn">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                    <span class="span4"></span>
+                    See Project
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <form action="https://formsubmit.co/julianpq0626@gmail.com" method="post" data-aos="zoom-in">
+
+            <h2 class="name">Name</h2>
+            <input type="text" name="name" id="nameInput" required>
+
+            <h2 class="email">Email</h2>
+            <input type="email" name="email" id="emailInput">
+
+            <h2 class="description">Description</h2>
+            <textarea name="description" id="asunt" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Submit" class="submit">
+
+        </form>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="./src/js/script.js"></script>
+
+    </body>
+</html>
